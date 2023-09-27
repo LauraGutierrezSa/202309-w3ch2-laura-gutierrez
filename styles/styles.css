@@ -23,7 +23,7 @@ h1 {
 }
 
 body {
-  background-image: url(/images/backround.jpg);
+  background-image: url(/images/backround.avif);
 }
 
 .header > h1 {
@@ -43,17 +43,58 @@ button {
 }
 
 .card {
-  display: grid;
-  grid: repeat(2, 60px) / auto-flow 80px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-auto-flow: row;
-  grid-auto-rows: 1fr;
-  grid-gap: 15px;
-  width: 260px;
-  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 450px;
   border: 3px solid var(--main-color);
   box-shadow: 10px 5px 5px var(--main-color);
   background: #e9edf0;
   border-radius: 10%;
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 450px;
+  border: 3px solid var(--main-color);
+  box-shadow: 10px 5px 5px var(--main-color);
+  background: #e9edf0;
+  border-radius: 10%;
+}
+
+.card-reverse {
+  visibility: hidden;
+  background-image: url(/images/card.jpg);
+}
+
+.top-suit {
+  display: flex;
+  justify-content: baseline;
+  padding: 25px;
+}
+
+.bottom-suit {
+  display: flex;
+  justify-content: end;
+  padding: 25px;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.user-span {
+  font-size: 3rem;
+  color: #d31515;
+}
+
+.game-span {
+  font-size: 3rem;
+  color: #0b0b0b;
 }
