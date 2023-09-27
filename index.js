@@ -22,9 +22,16 @@ const getDeck = () => {
       deck.push({
         cardNumber: cardValues,
         suit: cardSuits,
-        value: cardValuePosition,
+        value: cardValuePosition + 2,
       });
     });
   });
+
   return deck;
+};
+
+const getRandomCard = () => {
+  const randomCard = Math.floor(Math.random() * getDeck().length);
+
+  return getDeck()[randomCard];
 };
