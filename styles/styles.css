@@ -96,5 +96,28 @@ button {
 
 .game-span {
   font-size: 3rem;
-  color: #0b0b0b;
+  color: var(--main-color);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 55px;
+}
+
+.button {
+  width: 120px;
+  height: 55px;
+  border-radius: 10%;
+  padding: 10px;
+  font: var(--main-font);
+}
+
+.smaller-button {
+  margin: 15px;
+}
+
+.greater-button {
+  margin: 15px;
 }
