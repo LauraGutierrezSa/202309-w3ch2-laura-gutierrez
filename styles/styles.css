@@ -1,6 +1,6 @@
 :root {
   --main-color: #312d2d;
-  --main-font: ;
+  --main-font: "Croissant One";
 }
 
 *,
@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: ;
+  font-family: "Croissant One", cursive;
 }
 
 .main-container {
@@ -26,7 +26,10 @@ body {
   background-image: url(/images/backround.jpg);
 }
 
-.header {
+.header > h1 {
+  padding: 25px;
+  color: #e9edf0;
+  text-align: center;
 }
 
 button {
@@ -49,7 +52,8 @@ button {
   grid-gap: 15px;
   width: 260px;
   height: 350px;
-  border: 3px solid #555;
+  border: 3px solid var(--main-color);
+  box-shadow: 10px 5px 5px var(--main-color);
   background: #e9edf0;
   border-radius: 10%;
 }
