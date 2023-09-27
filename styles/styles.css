@@ -67,8 +67,11 @@ button {
 }
 
 .card-reverse {
-  visibility: hidden;
   background-image: url(/images/card.jpg);
+}
+
+.card-upwards {
+  background-color: #e9edf0;
 }
 
 .top-suit {
