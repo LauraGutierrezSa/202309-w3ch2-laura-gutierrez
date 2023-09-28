@@ -96,7 +96,27 @@ button {
   font-size: var(--font-size);
 }
 
-.user-span-suit {
+.game-span-suit {
+  display: flex;
+  padding: 15px;
+  font-size: var(--font-size);
+}
+
+.bottom-game-suit {
+  display: flex;
+  justify-content: end;
+  padding: 15px;
+  font-size: var(--font-size);
+}
+
+.game-card-number {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: var(--font-size);
+}
+
+.suit {
   font-size: 3rem;
   color: #d31515;
 }
