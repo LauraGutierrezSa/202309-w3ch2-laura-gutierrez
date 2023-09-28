@@ -12,32 +12,38 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans:ital@0;1&family=Montserrat:wght@100;200;300;500&display=swap"
     rel="stylesheet">
-  <script type="module" src="index.js"></script>
+  <script src="/js/index.js" defer></script>
+  <script src="/js/dom.js"" defer></script>
   <title>Greater or smaller?</title>
 </head>
 
-<body>
-  <header class="header">
+<div>
+  <header class=" header">
     <h1>Greater or Smaller?</h1>
   </header>
-  <main class="main-container">
-    <div class="cards-container">
-      <div class="card current-card">
-        <span class="suit top-suit user-span">♥</span>
-        <span class="number user-span">5</span>
-        <span class="suit bottom-suit user-span">♥</span>
+  <main>
+    <div class="main-container hidden">
+      <div class="cards-container">
+        <div class="card current-card">
+          <span class="suit top-suit user-span">♥</span>
+          <span class="number user-span">5</span>
+          <span class="suit bottom-suit user-span">♥</span>
+        </div>
+        <div class="card game-card card-upwards">
+          <span class="suit top-suit game-span">♣</span>
+          <span class="number game-span">2</span>
+          <span class="suit bottom-suit game-span">♣</span>
+        </div>
       </div>
-      <div class="card game-card card-upwards">
-        <span class="suit top-suit game-span">♣</span>
-        <span class="number game-span">2</span>
-        <span class="suit bottom-suit game-span">♣</span>
+      <div class="buttons">
+        <button type="button" class="button smaller-button">GREATER</button>
+        <button type="button" class="button greater-button">SMALLER</button>
       </div>
     </div>
-    <div class="buttons">
-      <button type="button" class="button smaller-button">GREATER</button>
-      <button type="button" class="button greater-button">SMALLER</button>
+    <div class="start-menu">
+      <button type="button" class="start-button">START</button>
     </div>
   </main>
-</body>
+  </body>
 
 </html>

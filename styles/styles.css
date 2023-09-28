@@ -1,6 +1,7 @@
 :root {
   --main-color: #312d2d;
   --main-font: "Croissant One";
+  --light-color: #e9edf0;
 }
 
 *,
@@ -28,7 +29,7 @@ body {
 
 .header > h1 {
   padding: 25px;
-  color: #e9edf0;
+  color: var(--light-color);
   text-align: center;
 }
 
@@ -50,7 +51,7 @@ button {
   height: 450px;
   border: 3px solid var(--main-color);
   box-shadow: 10px 5px 5px var(--main-color);
-  background: #e9edf0;
+  background: var(--light-color);
   border-radius: 10%;
 }
 
@@ -62,7 +63,7 @@ button {
   height: 450px;
   border: 3px solid var(--main-color);
   box-shadow: 10px 5px 5px var(--main-color);
-  background: #e9edf0;
+  background: var(--light-color);
   border-radius: 10%;
 }
 
@@ -71,12 +72,11 @@ button {
 }
 
 .card-upwards {
-  background-color: #e9edf0;
+  background-color: var(--light-color);
 }
 
 .top-suit {
   display: flex;
-  justify-content: baseline;
   padding: 25px;
 }
 
@@ -123,4 +123,17 @@ button {
 
 .greater-button {
   margin: 15px;
+}
+
+.start-button {
+  width: 120px;
+  height: 55px;
+  border-radius: 10%;
+  padding: 10px;
+  font: var(--main-font);
+  margin: 15px;
+}
+
+.hidden {
+  visibility: hidden;
 }
