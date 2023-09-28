@@ -2,6 +2,7 @@
   --main-color: #312d2d;
   --main-font: "Croissant One";
   --light-color: #e9edf0;
+  --font-size: 40px;
 }
 
 *,
@@ -77,22 +78,25 @@ button {
 
 .top-suit {
   display: flex;
-  padding: 25px;
+  padding: 15px;
+  font-size: var(--font-size);
 }
 
 .bottom-suit {
   display: flex;
   justify-content: end;
-  padding: 25px;
+  padding: 15px;
+  font-size: var(--font-size);
 }
 
 .number {
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 15px;
+  font-size: var(--font-size);
 }
 
-.user-span {
+.user-span-suit {
   font-size: 3rem;
   color: #d31515;
 }
