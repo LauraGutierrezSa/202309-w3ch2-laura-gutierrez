@@ -18,7 +18,7 @@ html {
 }
 
 .main-container {
-  padding: 3rem;
+  padding: 1rem;
 }
 
 body,
@@ -28,7 +28,7 @@ h1 {
 
 .header > h1 {
   font-size: 50px;
-  padding: 25px;
+  padding: 15px;
   color: var(--light-color);
   text-align: center;
 }
@@ -47,8 +47,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 300px;
-  height: 450px;
+  width: 230px;
+  height: 350px;
   border: 3px solid var(--main-color);
   box-shadow: 10px 5px 5px var(--main-color);
   background: var(--light-color);
@@ -59,8 +59,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 300px;
-  height: 450px;
+  width: 230px;
+  height: 350px;
   border: 3px solid var(--main-color);
   box-shadow: 10px 5px 5px var(--main-color);
   background: var(--light-color);
@@ -69,6 +69,7 @@ button {
 
 .card-reverse {
   background-image: url(/images/card.jpg);
+  background-size: cover;
 }
 
 .card-upwards {
@@ -129,7 +130,7 @@ button {
   display: flex;
   flex-direction: column;
   place-items: center;
-  padding: 35px;
+  padding: 20px;
 }
 
 .button {
@@ -176,7 +177,8 @@ button {
 .result-message {
   display: flex;
   justify-content: center;
-  padding: 45px;
+  height: 80px;
+  padding: 20px;
   color: var(--light-color);
   font-size: 25px;
 }
