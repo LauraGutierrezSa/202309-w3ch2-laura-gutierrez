@@ -13,6 +13,8 @@
 
 html {
   font-family: "Croissant One", cursive;
+  background-image: url(/images/backround.avif);
+  background-size: cover;
 }
 
 .main-container {
@@ -24,11 +26,8 @@ h1 {
   margin: 0;
 }
 
-body {
-  background-image: url(/images/backround.avif);
-}
-
 .header > h1 {
+  font-size: 50px;
   padding: 25px;
   color: var(--light-color);
   text-align: center;
@@ -138,7 +137,7 @@ button {
   height: 55px;
   border-radius: 10px;
   padding: 10px;
-  font: var(--main-font);
+  font-family: var(--main-font);
 }
 
 .smaller-button {
@@ -149,15 +148,35 @@ button {
   margin: 15px;
 }
 
+.start-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .start-button {
   width: 120px;
   height: 55px;
   border-radius: 10px;
   padding: 10px;
-  font: var(--main-font);
+  font-family: var(--main-font);
   margin: 15px;
 }
 
+@media (hover: hover) {
+  .button:hover {
+    color: var(--main-color);
+    background: rgb(169, 189, 175);
+  }
+}
+
 .hidden {
-  visibility: hidden;
+  display: none;
+}
+
+.result-message {
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+  color: var(--light-color);
+  font-size: 25px;
 }

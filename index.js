@@ -84,7 +84,6 @@ const generateGameCard = () => {
 
   return gameCard;
 };
-debugger;
 const compareCardsValue = () => {
   if (playerCard.value < gameCard.value) {
     return true;
