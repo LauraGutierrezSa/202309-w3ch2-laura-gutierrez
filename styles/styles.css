@@ -2,7 +2,7 @@
   --main-color: #312d2d;
   --main-font: "Croissant One";
   --light-color: #e9edf0;
-  --font-size: 40px;
+  --font-size: 2rem;
 }
 
 *,
@@ -18,7 +18,7 @@ html {
 }
 
 .main-container {
-  padding: 1rem;
+  padding: 16px;
 }
 
 body,
@@ -27,9 +27,9 @@ h1 {
 }
 
 .header > h1 {
-  font-size: 50px;
   padding: 15px;
   color: var(--light-color);
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@ button {
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .smaller-button {
@@ -182,7 +182,7 @@ button {
   height: 80px;
   padding: 20px;
   color: var(--light-color);
-  font-size: 25px;
+  font-size: var(--font-size);
 }
 
 .bettingContainer {
