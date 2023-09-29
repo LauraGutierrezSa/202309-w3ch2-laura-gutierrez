@@ -100,9 +100,9 @@ greaterButton.addEventListener("click", () => {
   gameCard.classList.add("card-upwards");
 
   if (compareCardsValue() === true) {
-    resultMessage.textContent = "Hell yeah! You were right 😎👍";
-  } else {
     resultMessage.textContent = "Oh no :( you were wrong 🎻😔";
+  } else {
+    resultMessage.textContent = "Hell yeah! You were right 😎👍";
   }
 });
 
