@@ -129,7 +129,7 @@ button {
   display: flex;
   flex-direction: column;
   place-items: center;
-  padding: 55px;
+  padding: 35px;
 }
 
 .button {
@@ -179,4 +179,9 @@ button {
   padding: 45px;
   color: var(--light-color);
   font-size: 25px;
+}
+
+.bettingContainer {
+  display: flex;
+  flex-direction: column;
 }
